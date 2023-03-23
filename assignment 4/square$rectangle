@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n,rows,column,i,j;
+	cout<<"enter a number: ";
+	cin>>n;
+	cout<<"rows: ";
+	cin>>rows;
+	cout<<"column: ";
+	cin>>column;
+	for(i=1;i<=n;i++)
+	{
+		for( j=1;j<=n;j++)
+		{
+			cout<<"$";
+		}
+		cout<<endl;
+	}
+	
+	for (i=1;i<=rows;i++){
+		for(j=1;j<=column;j++){
+			cout<<"$";
+		}
+		cout<<endl;
+	}
+return 0;
+}
